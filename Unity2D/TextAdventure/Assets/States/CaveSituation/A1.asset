@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc1e0a88c1fdfc46a08080dd81248ba, type: 3}
+  m_Name: A1
+  m_EditorClassIdentifier: 
+  storyText: '"Well, seems like there is no any dragons here" was the only thing
+    you managed to create before you heard revolting roar from the behind...
+
+    
+
+    What
+    should you do?
+
+    
+
+    1. Face the danger with all your courage
+
+    2.
+    Try to run away'
+  nextStates:
+  - {fileID: 11400000, guid: df2066bf3980e89429da70c1a2210891, type: 2}
+  - {fileID: 11400000, guid: 26699b70cae553a40aea75f6fcf258d4, type: 2}
+  health: 0
+  potions: 0
+  armour: 0
+  damage: 0
+  attack: 0
+  requirement: 0

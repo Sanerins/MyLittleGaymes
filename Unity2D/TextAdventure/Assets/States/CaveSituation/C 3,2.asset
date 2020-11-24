@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc1e0a88c1fdfc46a08080dd81248ba, type: 3}
+  m_Name: C 3,2
+  m_EditorClassIdentifier: 
+  storyText: 'Seems like you have found a dragon''s secret weaponry, hooray. There
+    is no way you could find such a good stuff! The dragon is doomed!
+
+    There
+    is only one way out of here...
+
+    Armour: +100
+
+    Attack: + 100
+
+    Potions:
+    +10
+
+    
+
+    1. To the dragon''s nest'
+  nextStates:
+  - {fileID: 11400000, guid: 71ebb821c48540e4b9911756ac46e1d7, type: 2}
+  health: 0
+  potions: 10
+  armour: 100
+  damage: 0
+  attack: 100
+  requirement: 20

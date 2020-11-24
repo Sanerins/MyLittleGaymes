@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc1e0a88c1fdfc46a08080dd81248ba, type: 3}
+  m_Name: D 3
+  m_EditorClassIdentifier: 
+  storyText: 'You thought that rummaging in goblin''s trash was the stupidest idea
+    in your life until you found quite a handy knife and neat peace of leather which
+    you implemented as a part of your body armour
+
+    
+
+    Armour: +10
+
+    Attack:
+    +5
+
+    
+
+    1. Sneak to the Tribe Ruler quaters
+
+    2. It''s a time for
+    attack'
+  nextStates:
+  - {fileID: 11400000, guid: 75e3eab73a9d4d344bcd6ebdd530fec6, type: 2}
+  - {fileID: 11400000, guid: 816cd4ac5656cb140a774772c5e93334, type: 2}
+  health: 0
+  potions: 0
+  armour: 10
+  damage: 0
+  attack: 5
+  requirement: 0

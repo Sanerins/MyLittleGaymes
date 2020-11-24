@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc1e0a88c1fdfc46a08080dd81248ba, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'In that game you will be given an opportunity to beat a hideous dragon
+    by the young stupid knight, who decided to check his lack heading to the dragon''s
+    nest completely unprepared.
+
+    You can choose from 1 to 3 suggested variants
+    using keys ''1'' ''2'' ''3'' on your keyboard.
+
+    Press ''W'' to drink a potion
+    if you have one.
+
+    Well, now press one to head to the game'
+  nextStates:
+  - {fileID: 11400000, guid: a3ca895fb95ce6742831eee25e429acc, type: 2}
+  health: 0
+  potions: 0
+  armour: 0
+  damage: 0
+  attack: 0
+  requirement: 0

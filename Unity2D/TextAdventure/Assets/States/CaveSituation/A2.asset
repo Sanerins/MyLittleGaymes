@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc1e0a88c1fdfc46a08080dd81248ba, type: 3}
+  m_Name: A2
+  m_EditorClassIdentifier: 
+  storyText: 'Surprisingly, old hut still contained some belongings of it''s previous
+    owner. You have found quite a handy pair of metal boots, old warrior''s helmet
+    rusty sword and one health potion.
+
+    Potions + 1
+
+    Attack + 10
+
+    Defence
+    + 15
+
+    Suddenly, you notice odd crunch of wood planks under your feet...
+
+    
+
+    1.
+    Try to jump aside
+
+    2. Prepare for fall'
+  nextStates:
+  - {fileID: 11400000, guid: 81a42b2c3dbaf80498cb5c81c2501ac9, type: 2}
+  - {fileID: 11400000, guid: 81a42b2c3dbaf80498cb5c81c2501ac9, type: 2}
+  health: 0
+  potions: 1
+  armour: 15
+  damage: 0
+  attack: 10
+  requirement: 0

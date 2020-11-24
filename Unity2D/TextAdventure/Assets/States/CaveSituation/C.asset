@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc1e0a88c1fdfc46a08080dd81248ba, type: 3}
+  m_Name: C
+  m_EditorClassIdentifier: 
+  storyText: 'After a while you found yourself in a vast chamber with 3 defferent
+    passages leading out of it
+
+    
+
+    Which one would you choose?
+
+    
+
+    1.
+    First
+
+    2. Second
+
+    3. Third'
+  nextStates:
+  - {fileID: 11400000, guid: 1eb871708ff5e3e47a845c12a0553dd7, type: 2}
+  - {fileID: 11400000, guid: 0af9e9eaadf7f95489b67718a5323358, type: 2}
+  - {fileID: 11400000, guid: 48fb2533c0d152c40a46897560a64b7b, type: 2}
+  health: 0
+  potions: 0
+  armour: 0
+  damage: 0
+  attack: 0
+  requirement: 0

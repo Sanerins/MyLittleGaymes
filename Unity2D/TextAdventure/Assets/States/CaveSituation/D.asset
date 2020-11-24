@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc1e0a88c1fdfc46a08080dd81248ba, type: 3}
+  m_Name: D
+  m_EditorClassIdentifier: 
+  storyText: 'Damage: 25
+
+    
+
+    There was a freaking trap in your way which
+    you didn''t manage to notice!
+
+    Anyway, goblins didn''t notice you and now
+    you are hiding under the wall of one of their huts
+
+    
+
+    1. Sneak to the
+    Tribe Ruler quaters
+
+    2. It''s a time for attack
+
+    3. Let''s rummage
+    in the trash...'
+  nextStates:
+  - {fileID: 11400000, guid: 75e3eab73a9d4d344bcd6ebdd530fec6, type: 2}
+  - {fileID: 11400000, guid: 816cd4ac5656cb140a774772c5e93334, type: 2}
+  - {fileID: 11400000, guid: 38bf0f5d25697294aa69b797edb3b0da, type: 2}
+  health: 0
+  potions: 0
+  armour: 0
+  damage: 25
+  attack: 0
+  requirement: 0
